@@ -5,38 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontello.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Pagina principal</title>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <header>
-    <h1 ID="navuno">
-        SGD 
-        <p>
-            Sistema de Gestion de Datos  
-            <Form>
-                <input type="text" value="Buscar">
-            </Form>                                               
-        </p>
-    </h1>
-</header>
-    <h2><img id="foto" src="imagenes/relleno.jpg"></h2>
+        <nav class="navbar navbar-expand-lg colorfondo">
+            <div class="container-fluid">
+              <a class="navbar-brand fuentelogo" href="#">SGD</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="perfil.html">Perfil</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Documentos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="documentos.html">Documentos</a></li>
+                      <li><a class="dropdown-item" href="vehiculos.html">Vehiculos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="nosotros.html">Empresas</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Bienvenido</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success botoncolor" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <br>
+    <br>
     <h2 id="caja22">
         Bienvenidos
          <p>
             En el sitio web actual se podra gestionar, organizar y archivar sus datos de forma fácil y sencilla. Para un proceso mas optimo y seguro. Otorgamos mayor comodidad para trabajar desde cualquier punto del planeta y brindamos apoyo virtual las 24hs en caso de que tenga alguna duda.
         </p>
     </h2>
-    <h2>
-        Selecciona una de estas secciones para comenzar a trabajar:
-        <ul>
-            <li><a href="perfil.html">Perfil</a></li>
-            <li><a href="documentos.html">Documentos</a></li>
-            <li><a href="vehiculos.html">Vehiculos</a></li>
-            <li><a href="nosotros.html">Sobre nosotros</a></li>
-        </ul>
-    </h2>
-<footer>
+    <section class="grid-padre-index">  
+        <div class="cajafoto1">
+            <img src="imagenes/ar2.png" alt="">
+        </div>
+        <div class="textoindex1">
+            
+Busca y selecciona sus archivos. Nuestro sistema le permitira hacer busquedas instantaneamente y lograr una mayor efectividad de resultados. Su trabajo obtendra la prolijidad necesaria para potenciar el rendimiento. 
+
+        </div>
+        <div class="textoindex2">
+
+            Almacene sus archivos, imagenes, documentos, etc; en un mismo lugar. Con SGD su vida se organizara inmediatamente 
+
+        </div>
+        <div class="cajafoto2">
+            <img src="imagenes/carpeta.png" alt="">
+        </div>
+
+
+
+
+
+    </section>
+<footer class="foo">
     Encontranos tambien en nuestras redes sociales como <a href="">Facebook</a> e <a href="">Instagram</a>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
