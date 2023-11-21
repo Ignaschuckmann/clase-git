@@ -3,10 +3,13 @@
 #navuno{
     background-color: #501d3b;
     color: white;
+    font-family: cursive;
 }
 #caja22{
     background-color: #dfcfd8;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 4%;
+    margin-top: 1%;
 }
 
 #foto{
@@ -29,7 +32,7 @@ footer{
 }
 .colorfondo{
     background-color: #833561;
-
+    font-family: italic;
 }
 
 .fuentelogo{
@@ -107,8 +110,13 @@ footer{
 
 .textoindex2{
     grid-area: textoindex3;
+    text-align: right;
 }
 
 .cajafoto2{
     grid-area: caja6;
+}
+
+.colorfont{
+    color: white;
 }
